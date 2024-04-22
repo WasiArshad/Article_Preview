@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    width: 850px;
+    display: flex;
+}
+.right {
+    box-shadow: 0 0 50px rgb(78 33 202 / 4%);
+}
+.right img {
+    width: 300px;
+    height: 290px;
+    border-radius: 10px 0px 0px 10px;
+}
+.left {
+    padding: 35px 35px 30px 35px;
+    background-color: #fff;
+    border-radius: 0px 10px 10px 0px;
+}
+.left h5 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Manrope", sans-serif;
+    color: hsla(217, 19%, 35%, 0.939);
+    padding-bottom: 20px;
+    max-width: 363px;
+}
+.left p {
+    font-size: 13px;
+    font-family: "Manrope", sans-serif;
+    color: hsl(214, 17%, 51%);
+    font-weight: 500;
+    padding-bottom: 20px;
+    max-width: 350px;
+}
+.user-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.user-details img {
+    border-radius: 50%;
+    width: 45px;
+}
+.user-name {
+    margin-right: 125px;
+}
+.user-name p {
+    color: hsla(217, 19%, 35%, 0.919);
+    font-weight: 700;
+    margin-bottom: 3px;
+    padding-bottom: 0px;
+}
+.user-name span {
+    color: hsl(214, 17%, 51%);
+    font-family: "Manrope", sans-serif;
+    font-size: 13px;
+}
+.user-details .share-btn {
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(210, 46%, 95%);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.share-btn img {
+    width: 15px;
+}
+.share-btn {
+    cursor: pointer;
+}
+.share-btn:hover {
+    background-color: hsla(217, 19%, 35%, 0.919);
+}
+.hide {
+    display: none;
+}
+.link-style {
+    padding: 5px 25px;
+    background-color: hsl(217, 19%, 35%);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 243px;
+    bottom: 57px;
+    border-radius: 8px;
+}
+.link-style img {
+    width: 17px;
+    border-radius: 0;
+}
+.link-style p {
+    letter-spacing: 5px;
+    color: hsl(214, 17%, 51%);
+    padding-bottom: 0;
+    font-size: 12px;
+}
+.link-style a {
+    margin: 6px;
+}
